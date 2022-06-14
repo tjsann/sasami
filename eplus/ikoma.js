@@ -100,7 +100,8 @@ document.getElementsByName(tel_name)[0].value = tel;
 document.getElementsByName(mail_name)[0].value = mail;
 document.getElementsByName(mail_conf_name)[0].value = mail;
 
-var shoprand = Math.floor(Math.random()*2);
+var shoprand = 0;
+    //Math.floor(Math.random()*2);
 if(shoprand == 0){
   document.getElementById("i12").checked = true;
 }else if(shoprand == 1){
