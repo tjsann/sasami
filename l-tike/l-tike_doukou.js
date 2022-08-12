@@ -1,7 +1,7 @@
 //ローチケ名義入力画面自動化[共用]
 
 //使用ドメイン入力
-var domains = ['@gamuil.com'];
+var domains = ['@tjs1020.v2004.coreserver.jp.com'];
 
 //同行者数取得
 doukounum = document.querySelectorAll('tr td select').length;
